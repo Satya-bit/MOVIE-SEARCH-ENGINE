@@ -32,8 +32,8 @@ A web page that can used to search movies based on description , director and mo
 # ON LOCALHOST
 ![image](https://github.com/Satya-bit/MOVIE-SEARCH-ENGINE/assets/70309925/0616d744-20b4-4c98-82a6-6463bf0dadb7)
 
-When I wrote women in sports it showed relevant movies like Chak De India, Dangal along with movie's description, Director and overview.
+->When I wrote women in sports it showed relevant movies like Chak De India, Dangal along with movie's description, Director and overview.
 
 ![image](https://github.com/Satya-bit/MOVIE-SEARCH-ENGINE/assets/70309925/fde31318-6d8c-47bd-be21-0ece1a5cb058)
 
-We can also search movies by writing the name of director. For instance I wrote 'Nolan' then it showed movies like 'Bataman Begins' and 'The Dark Night'
+->We can also search movies by writing the name of director. For instance I wrote 'Nolan' then it showed movies like 'Bataman Begins' and 'The Dark Night'
