@@ -24,9 +24,13 @@ A web page that can used to search movies based on description , director and mo
 
 # HOW THE CODE WORKS
 -> Connect the elastic search server by writing ‘elasticsearch’ in the command prompt.
+
 -> Connect to the elastoic search database using your credentials. After fetching the dataset from Kaggle I used the ‘all-mpnet-base-v2’ model from huggingface to get embeddings of our sentences.
+
 ->I made an index on the overview column and stored the word embeddings in indexnode=’satyashah’.
+
 ->We will call this index on the front end to fetch the data after writing a query. I have used l2_norm to get the similarity between the query and overview.
+
 ->By using the command python-m streamlit run app.py to connect the localhost.
 
 # ON LOCALHOST
