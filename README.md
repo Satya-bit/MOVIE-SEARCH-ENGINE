@@ -22,3 +22,16 @@ A web page that can used to search movies based on description , director and mo
 
 
 
+# HOW THE CODE WORKS
+-> Connect the elastic search server by writing ‘elasticsearch’ in the command prompt.
+-> Connect to the elastoic search database using your credentials. After fetching the dataset from Kaggle I used the ‘all-mpnet-base-v2’ model from huggingface to get embeddings of our sentences.
+->I made an index on the overview column and stored the word embeddings in indexnode=’satyashah’.
+->We will call this index on the front end to fetch the data after writing a query. I have used l2_norm to get the similarity between the query and overview.
+->By using the command python-m streamlit run app.py to connect the localhost.
+
+# ON LOCALHOST
+![image](https://github.com/Satya-bit/MOVIE-SEARCH-ENGINE/assets/70309925/0616d744-20b4-4c98-82a6-6463bf0dadb7)
+When I wrote women in sports it showed relevant movies like Chak De India, Dangal along with movie's description, Director and overview.
+
+![image](https://github.com/Satya-bit/MOVIE-SEARCH-ENGINE/assets/70309925/fde31318-6d8c-47bd-be21-0ece1a5cb058)
+We can also search movies by writing the name of director. For instance I wrote 'Nolan' then it showed movies like 'Bataman Begins' and 'The Dark Night'
