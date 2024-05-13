@@ -9,6 +9,7 @@ A web page that can used to search movies based on description , director and mo
 
 -Kaggle ![image](https://github.com/Satya-bit/MOVIE-SEARCH-ENGINE/assets/70309925/829f74f2-e51d-47e0-b829-c71e03249e86)
 
+
 -Sentence Transformer(‘all-mpnet-base-v2’) ![image](https://github.com/Satya-bit/MOVIE-SEARCH-ENGINE/assets/70309925/b9968188-9ddd-4af9-af69-7f86a04216cb)
 
 -Pandas ![image](https://github.com/Satya-bit/MOVIE-SEARCH-ENGINE/assets/70309925/b3d36b3a-0d5b-4e4d-a75d-5500b6d0a983)
