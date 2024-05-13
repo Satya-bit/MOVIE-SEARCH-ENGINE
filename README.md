@@ -3,6 +3,7 @@ A web page that can used to search movies based on description , director and mo
 
 #Technologies, libraries and platforms used:-
 -Huggingface
+
 ![image](https://github.com/Satya-bit/MOVIE-SEARCH-ENGINE/assets/70309925/b9f38852-8d35-4cbb-83ae-5695784807b7)
 
 -Python
